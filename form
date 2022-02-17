@@ -1,0 +1,23 @@
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel" name="formData">Быстрый заказ на печать</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" enctype="multipart/form-data" id="feedback">
+                    <p><input type="text" name="name" id="name" placeholder="Ваше имя"></p>
+                    <p><input type="text" name="phone" id="phone" placeholder="Телефон"></p>
+                    <p><input type="email" name="email" id="email" placeholder="Email"></p>
+                    <p><textarea name="message" id="message" placeholder="Сообщение"></textarea></p>
+                    <p><input type="file"></p>
+                    <div class="g-recaptcha" data-sitekey="6Lf1clseAAAAABUVVi_hmW343oxu92n2RbV4enxu" id="recaptchaError"></div>
+                    <p style="font-size: 10px">Отправляя запрос, я соглашаюсь с <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">политикой конфиденциальности</button></p>
+                    <input type="submit" class="btn" id="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
